@@ -1,7 +1,7 @@
 {
   "train": {
-    "log_interval": 64,
-    "eval_interval": 641,
+    "log_interval": 66,
+    "eval_interval": 661,
     "seed": 1234,
     "epochs": 1000000,
     "learning_rate": 0.0001,
@@ -19,7 +19,7 @@
     "use_sr": true,
     "max_speclen": 512,
     "port": "8001",
-    "keep_ckpts": 2,
+    "keep_ckpts": 3,
     "num_workers": 4,
     "log_version": 0,
     "ckpt_name_by_step": false,
