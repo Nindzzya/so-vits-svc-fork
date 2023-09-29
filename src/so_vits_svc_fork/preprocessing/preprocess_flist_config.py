@@ -47,9 +47,9 @@ def preprocess_config(
             raise ValueError(
                 f"too few files in {input_dir / speaker} (expected at least 5)."
             )
-        train += paths[:1071]
-        val += paths[1071:1312]
-        test += paths[1312:]
+        train += paths[:1150]
+        val += paths[1150:1408]
+        test += paths[1408:]
 
     LOG.info(f"Writing {train_list_path}")
     train_list_path.parent.mkdir(parents=True, exist_ok=True)
